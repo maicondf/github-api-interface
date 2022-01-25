@@ -6,6 +6,12 @@ export const Wrapper = styled.div`
   justify-content: space-between;
   padding: 4px;
 
+  h1 {
+    font-weight: bold;
+    text-align: center;
+    padding: 4px;    
+  }
+
   input {
     border: 1px solid #ccc;
     border-radius: 8px;

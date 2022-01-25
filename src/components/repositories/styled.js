@@ -51,4 +51,5 @@ export const WrapperList = styled.div`
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
+  margin-left: 10%;
 `;

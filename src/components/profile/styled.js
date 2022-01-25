@@ -2,7 +2,8 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
   display: flex;
-  align-items: flex-start;
+  align-items: flex-start;  
+
 `;
 
 export const WrapperInfoUser = styled.div`
@@ -31,9 +32,10 @@ export const WrapperInfoUser = styled.div`
 
 export const WrapperStatusCount = styled.div`
   display: flex;
-  align-items: center;
+  justify-content: right;
+
   div {
-    margin: 8px;
+    margin-right: 10px;
     text-align: center;
   }
 `;
