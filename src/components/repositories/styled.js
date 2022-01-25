@@ -22,7 +22,8 @@ export const WrapperTab = styled(Tab)`
   user-select: none;
   cursor: pointer;
   z-index: 99999;
-  background-color: "#fff";
+  color: #ffff;
+  background-color: #225ed8;
   margin: 8px;
 
   &:focus {
@@ -30,7 +31,7 @@ export const WrapperTab = styled(Tab)`
   }
 
   &.is-selected {
-    box-shadow: 3px 2px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 3px 2px 10px rgba(0, 0, 0, 0.8);
   }
 `;
 WrapperTab.tabsRole = "Tab";
